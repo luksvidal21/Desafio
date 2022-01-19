@@ -1,79 +1,8 @@
 body{
-    background-color: #F4F1DE;
-    font-family: 'Lato', sans-serif;
+  background: black;
 }
 
-main{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-  .container{
-    display: flex;
-    flex-direction: column;
-    background: #FF5853;
-    width: 400px;
-    height: 500px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
-    box-shadow: 0 0 2px black;
-  }
-  
-  .title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    font-size: 2.5rem;
-    font-weight: bold;
-    border-bottom: solid 2px #F5FA4D;
-    margin-bottom: 20px;
-    color: #F5FA4D;
-  }
-  
-  .input {
-    display: flex;
-    width: 300px;
-    height: 50px;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
-  .input input {
-    width: 200px;
-    height: 50px;
-    border-radius: 5px;
-    border:none;
-    outline: 0;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #3B0061;
-    text-align: center;
-    
-  }
-  
-  .input label {
-    font-weight: bold;
-    font-size: 1.3rem;
-    color: #3B0061;
-  }
-  
-  button{
-    width: 300px;
-    height: 40px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    background: #3B0061;
-    color: #F5FA4D;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }  
-  
+h1{
+  color: white;
+  align-items: center;
+}
